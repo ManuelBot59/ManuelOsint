@@ -1,0 +1,153 @@
+@media (max-width:1200px){
+header.header2 nav > ul, header.header3 nav > ul, header.header4 nav > ul{padding-left: 0;}
+nav li a {padding: 35px 10px;}
+footer .block .container {width: 90%;}
+.knob {font-size: 30px !important;}
+.circular-progress > span {font-size: 30px;margin-top: -24px; right: 32%;}
+.count-wrap{width: 100%;}
+.fancy-counter > p {overflow: hidden;text-overflow: ellipsis;white-space: nowrap;width: 100%;}
+.fancy-counter h5 {display: inline;float: none;width: auto;}
+.fancy-counter span{float: none;}
+.simple-text.dark > p {padding: 0;}
+.full-portfolio {height: 400px;}
+.theme-layout.boxed{width: 90%;}
+} 
+
+@media (min-width:768px) and (max-width:980px){
+.block .container{padding: 0 15px;}
+header{display: none!important;}
+.responsive-header{display: block;}
+.slide-subtitle,.slide-bigfont,.slide-title3,.slide-subtitle3{letter-spacing: 3px;}
+.slide-subtitle2:before,.slide-subtitle2:after{display: none;}
+.column {float: left;width: 100%;margin-bottom: 50px;}
+.column:last-child{margin-bottom: 0;}
+.abt-services .service-block {width: 33.334%;float: left;}
+.about .counters .row > div{width: 33.334%;}
+.counters .row > div {float: left;width: 50%;}
+.simple-text > p{padding: 0;}
+.ideas-desc {margin-bottom: 30px;padding-left: 0; padding-right: 0;width: 100%;}
+.ideas-desc > h3 {padding-right: 0;}
+.idea-carousel {width: 100%;float: left;}
+.portfolio-sec > div > div {float: left;width: 50%;}
+.quote blockquote {padding: 0;}
+.quote blockquote i {left: 0;}
+.quote blockquote i.fa-quote-right {right: 0;}
+.brands-carousel2.owl-carousel .brand a img {max-width: 90%;}
+footer .block .container {width: 90%;}
+.welcome-sec {padding: 0;}
+.services .row > div {float: left;width: 50%;}
+.staff-thumb {margin-bottom: 40px;}
+.staff-tabs > li {float: left;width: 50%;}
+.staff-tabs {margin-top: 40px;}
+.twitter-carousel {width: 100%;margin: 0;}
+.style2 .portfolio img, .style2 .portfolio{width: 100%;}
+.circular-progress > span, .circular-progress > i{display: none;}
+.circular-progress{text-align: center;}
+.knob {padding-right: 0 !important;}
+.service-image { height: 150px;width: 150px;}
+.service-item {padding-left: 180px;}
+body.sideheader-page {padding: 0;}
+.price-plan {margin-bottom: 30px;padding: 0;}
+.table {margin-bottom: 30px;}
+.sidebar-gallery .row > div {float: left;width: 25%;}
+.big-port-desc {padding: 30px 30px 0;}
+.comment > h3{float: left;width: 100%;}
+.comment > span {float: left;margin: 0;width: 100%;}
+.full-portfolio {height: 320px;}
+.portfolio-title h2 { font-size: 30px;}
+.portfolio-title > span {font-size: 13px;}
+.form > form .row > div {float: left;width: 100%;}
+}
+
+
+@media (max-width:767px){
+header{display: none!important;}
+.responsive-header{display: block;}  
+.responsive-header{position: relative;width: 100%;float: left;}
+.block .container{padding: 0 15px;}
+.about {padding: 0;}
+.slide-subtitle,.slide-bigfont,.slide-title3,.slide-subtitle3{letter-spacing: 3px;}
+.slide-subtitle2:before,.slide-subtitle2:after{	display: none;}
+.column {float: left;width: 100%;margin-bottom: 50px;}
+.column:last-child{margin-bottom: 0;}
+.abt-services .service-block {width: 100%;float: left;}
+.counters .row > div {float: left;width:100%;}
+.simple-text > p{padding: 0;}
+.ideas-desc {margin-bottom: 30px;padding-left: 0;padding-right: 0;width: 100%;}
+.ideas-desc > h3 {padding-right: 0;}
+.idea-carousel {width: 100%;float: left;}
+.portfolio-sec > div > div {float: left;width: 100%;}
+.quote blockquote {padding: 0;}
+.quote blockquote i {left: 0;}
+.quote blockquote i.fa-quote-right {right: 0;}
+.brands-carousel2.owl-carousel .brand a img {max-width: 90%;}
+footer .block .container {width: 90%;}
+.centered-title > span {font-size: 13px;line-height: 17px;}	
+.centered-title > h3{font-size: 28px;}
+.heading h2 {font-size: 28px;padding: 0 30px 30px;}
+.heading{overflow: hidden;}
+.heading > p {font-size: 13px;line-height: 20px;}
+.portfolio-nav {padding: 0;}
+.portfolio-nav > li,.portfolio-nav > li a,.portfolio-nav > li a span {width: 100%;}
+.portfolio-nav > li > a span:after{display: none;}
+.welcome-sec {padding: 0;}
+.services .row > div { float: left; width: 50%;}
+.staff-thumb {margin-bottom: 40px;}
+.staff-tabs {margin-top: 40px;}
+.twitter-carousel { width: 100%;margin: 0;}
+.client-logo {border-bottom: 1px solid #dfdfdf;border-left: 1px solid #dfdfdf;border-top: 1px solid #dfdfdf;float: left;margin-bottom: -1px;width: 100%;}
+.client-logo:last-child {border-right: 1px solid #dfdfdf;}
+.style2 .portfolio img, .style2 .portfolio{width: 100%;}
+.heading2 h2 {font-size: 28px;line-height: 30px;}
+.circular-progress > span, .circular-progress > i{display: none;}
+.circular-progress{text-align: center;}
+.knob { padding-right: 0 !important;}
+.creative-thumbs a {height: 35px;margin-left: 5px;width: 35px;}
+.creative-carousel-detail {padding: 30px 20px;}
+.service-image {height: 150px;width: 150px;}
+.service-item {padding-left: 180px;}
+.services-carousel .owl-nav > div {left: 0;}
+.services-carousel .owl-nav > div.owl-next{right: 0;}
+.service-item {padding-left: 0;padding-top: 180px;}
+body.sideheader-page {padding: 0;}
+.price-plan {margin-bottom: 30px;padding: 0;}
+.table {margin-bottom: 30px;}
+.contact-info{padding: 0;}
+.page-title h2 {font-size: 30px;padding: 0 0 20px;}
+.page-title p {width: 100%;}
+form.search {width: 100%;}
+.sidebar-gallery .row > div {float: left;width: 25%;}
+.big-port-desc {padding: 30px;width: 100%;}
+.big-portfolio{margin-bottom: 40px;}
+.big-port-img {width: 100%;}
+.comment > h3{float: left;width: 100%;}
+.comment > span {float: left;margin: 0;width: 100%;}
+.comment {padding: 165px 20px 20px;}
+.comments-thread > ul li ul {padding: 0;}
+.page-title .block .container{position: relative;}
+.popup {padding: 0 15px;}
+.resume h4 {font-size: 20px;}
+.resume h5 {font-size: 50px;}
+.full-portfolio {height: 260px;}
+.portfolio-title h2 {font-size: 20px;margin-bottom: 5px;}
+.portfolio-title > span {font-size: 13px;}
+.form > form .row > div {float: left;width: 100%;}
+.text-carousel{padding-top: 0;}
+.carousel-slide > h4{font-size: 35px;}
+.carousel-slide > h5 {font-size: 20px;}
+.text-carousel{width: 100%;}
+}
+
+
+@media (max-width:480px){
+.services .row > div {float: left;width: 100%;}
+.sidebar-gallery .row > div{width: 50%;}
+.full-portfolio { height: 170px;padding: 5px;}
+.portfolio-title {left: 20px;padding-left: 10px;}
+.reverse .portfolio-title{right: 20px; padding-right: 10px;}
+.order-now{padding:50px 20px;}
+.gallery_kenburns canvas {height: 200px;width: 100%;}.kenburns-text h3 {font-size: 12px;margin-bottom: 5px;}
+.kenburns-text h2 { font-size: 35px;}
+.kenburns-text p{display: none;}
+
+}
