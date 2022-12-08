@@ -12,8 +12,8 @@
 SECCIONES :
  </h2>
  
- :hammer_and_wrench: SISTEMAS </br></br>
- :man_technologist: RR.SS </br></br>
+ :hammer_and_wrench: RR.SS </br></br>
+ :man_technologist: EMAIL </br></br>
  :hammer_and_wrench: TELEFONÍA PERÚ</br></br>
  :blue_book: WEB </br></br>
  :computer: FUENTE </br></br>
