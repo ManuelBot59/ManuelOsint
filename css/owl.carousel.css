@@ -46,6 +46,7 @@
     -webkit-backface-visibility: hidden;
     -webkit-tap-highlight-color: transparent;
     -webkit-touch-callout: none; }
+ 
   .owl-carousel .owl-item img {
     display: block;
     width: 100%; }
@@ -184,3 +185,144 @@
   z-index: 1;
   height: 100%;
   width: 100%; }
+
+
+/* Estilo para galería de imágenes */
+
+.learn-courses2 img {
+            width: 356px; /* Establece el ancho de la vista previa */
+            height: 150px; /* Establece la altura de la vista previa */
+            object-fit: cover; /* Mantiene la proporción de la imagen */
+            border-radius: 5px; /* Opcional: bordes redondeados */
+            margin: 5px;
+            transition: transform 0.3s ease;
+        }
+
+        .learn-courses2 img:hover {
+            transform: scale(1.1); /* Zoom al pasar el mouse */
+        }
+
+        .learn-courses2 {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .learn-courses2 a {
+            display: inline-block;
+            text-decoration: none;
+        }
+
+/* Estilo para galería de imágenes las flechas derecha e izquierda */
+
+.learn-courses2 .box-wrap {
+	width: 100%;
+}
+
+.learn-courses2 .box-wrap, .recent-course-single .grid-item{
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.learn-courses2 .box-wrap .img-wrap, 
+.course-listing-page .grid-item .img-wrap, 
+.recent-course-single .grid-item .img-wrap{
+	margin-bottom: -7px;
+}
+
+.learn-courses2 .learn-desining-banner,
+.course-listing-page .grid-item .learn-desining-banner-course,
+.recent-course-single .grid-item .learn-desining-banner-course {
+	position: absolute;
+	left: 5%;
+	top: 44%;
+	/*background: #009450;*/
+	padding: 0.9375em 3.5625em 1em 3.5625em;
+	/*font-size: 1.8rem;*/
+	/*font-family: "Raleway", sans-serif;*/
+	/*color: #fff;*/
+	/*text-decoration: none;*/
+}
+
+.course-listing-page .grid-item .learn-desining-banner-course, 
+.recent-course-single .grid-item .learn-desining-banner-course{
+	/*background: #1c3961;*/
+}
+
+.learn-courses2 .box-wrap .box-body, 
+.course-listing-page .grid-item .box-body,
+.recent-course-single .grid-item .box-body{
+	border: 1px solid #b7b7b7;
+	padding: 1.25em;
+	padding-top: 2.8125em;
+}
+
+.learn-courses2 .box-body p, 
+.course-listing-page .grid-item .box-body p,
+.recent-course-single .grid-item .box-body p {
+	/*font-size: 1.4rem;*/
+	/*font-family: 'Raleway', sans-serif;*/
+	/*color: #5c5c5c;*/
+}
+
+.learn-courses2 .box-body > p, 
+.course-listing-page .grid-item .box-body > p,
+.recent-course-single .grid-item .box-body > p {
+	margin-top: 1.428em;
+	margin-bottom: 2.1428em;
+}
+
+.learn-courses2 .box-body section p {
+	/*font-family: 'Raleway', sans-serif;*/
+}
+
+.learn-courses2 .box-body p span , 
+.course-listing-page .grid-item .box-body p span,
+.recent-course-single .grid-item .box-body p span{
+	color: #060e1a;
+}
+/*=======Owl Carlow ==========*/
+
+.learn-courses2 .owl-carousel .owl-nav, .latest-news .owl-carousel .owl-nav {
+	/*color:  #636363;*/
+	text-align: center;
+    margin-top: 2.5em;
+    margin-bottom: 6.25em;
+    position: relative;
+}
+
+.learn-courses2 .owl-carousel .owl-nav button[class*="owl-"], .latest-news .owl-carousel .owl-nav button[class*="owl-"]{
+    width: 45px;
+    height: 45px;
+    border: 2px solid #636363;
+    border-radius: 100%;
+    margin-right: 40px;
+    background-image: url('data:image/svg+xml; utf-8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><path fill="%23636363" d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z"></path></svg>');
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: center;
+    text-indent: 50px;
+    overflow: hidden;
+}
+
+.learn-courses2 .owl-carousel .owl-nav button.owl-next, .latest-news .owl-carousel .owl-nav button.owl-next{
+    margin-right: 0;
+    margin-left: 40px;
+    background-image: url('data:image/svg+xml; utf-8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><path fill="%23636363" d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"></path></svg>');
+}
+
+.learn-courses2 .owl-carousel .owl-nav::before, .latest-news .owl-carousel .owl-nav::before {
+    content: "";
+    background: #636363;
+    width: 60px;
+    height: 2px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.learn-courses2 .owl-carousel .owl-dots, .latest-news .owl-carousel .owl-dots {
+	display: none;
+}
